@@ -25,6 +25,13 @@
       "runtime_config": {
         "allowed_host": "*"
       }
+    },
+    {
+      "name": "hackernews",
+      "path": "oci://ghcr.io/tuananh/hackernews-plugin.wasm",
+      "runtime_config": {
+        "allowed_host": "hacker-news.firebaseio.com"
+      }
     }
   ]
 }
