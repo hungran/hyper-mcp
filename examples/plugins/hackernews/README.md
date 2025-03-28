@@ -17,7 +17,7 @@ can be oci://ghcr.io/tuananh/hackernews-plugin.wasm
   "plugins": [
     {
       "name": "hackernews",
-      "path": "/path/to/plugin.wasm",
+      "path": "hyper-mcp/examples/plugins/hackernews/plugin.wasm",
       "runtime_config": {
         "allowed_host": "hacker-news.firebaseio.com"
       }
